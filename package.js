@@ -15,7 +15,7 @@ Package.onUse(function(api) {
   api.imply('accounts-base', ['client', 'server']);
 
   api.use('accounts-oauth', ['client', 'server']);
-  api.use('tunguska:imgur', ['client', 'server']);
+  api.use('tunguska:imgur@0.0.1', ['client', 'server']);
 
   api.addFiles('accounts-imgur_login_button.css', 'client');
 
